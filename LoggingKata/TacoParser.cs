@@ -23,7 +23,7 @@ namespace LoggingKata
             if (cells.Length < 3)
             {
                 // Log error message and return null
-                logger.LogError("Error has occured.");
+                logger.LogError("Error has occurred.");
                 return null; 
             }
 

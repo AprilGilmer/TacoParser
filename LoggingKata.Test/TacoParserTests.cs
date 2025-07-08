@@ -38,8 +38,8 @@ namespace LoggingKata.Test
             var tacoParser = new TacoParser();
 
             //Act
-            var iTrackable = tacoParser.Parse(line);
-            var actual = iTrackable.Location.Longitude;
+            var ITrackable = tacoParser.Parse(line);
+            var actual = ITrackable.Location.Longitude;
 
             //Assert
             Assert.Equal(expected, actual);
@@ -60,8 +60,8 @@ namespace LoggingKata.Test
         {
             var tacoParser = new TacoParser();
 
-            var iTrackable = tacoParser.Parse(line);
-            var actual = iTrackable.Location.Latitude;
+            var ITrackable = tacoParser.Parse(line);
+            var actual = ITrackable.Location.Latitude;
 
             //figure out how to get a latitude from the iTrackable
             Assert.Equal(expected, actual);
